@@ -1,5 +1,5 @@
 pkgname=gitbook-editor
-pkgver=5.0.5
+pkgver=6.2.0
 pkgrel=1
 pkgdesc="An editor to write and publish books"
 arch=('x86_64')
@@ -8,7 +8,7 @@ url="https://www.gitbook.com/editor"
 license=('custom')
 source=("http://downloads.editor.gitbook.com/download/linux-64-bit")
 depends=("gtk2" "gconf" "nss" "libnotify" "alsa-lib")
-md5sums=('28c453f0009d0b0b87ee1daeead4313a')
+md5sums=('396d1ba9908be21e06dbc02e32ee79cb')
 
 package(){
 tar -xf data.tar.xz -C $pkgdir
